@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Left section with icon image -->
+        <div class="header-left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2m4L-ZC8KseA4zHDNNWNXrN5eNFLsGKo3Q&usqp=CAU" alt="Icon" class="icon">
+            <h1>airbnb</h1>
+        </div>
+
+        <!-- Middle section with information tabs -->
+        <div class="info-tabs">
+            <div class="info-tab">Places to Stay</div>
+            <div class="info-tab">Experiences</div>
+            <div class="info-tab">Online Experiences</div>
+        </div>
+
+        <!-- Right section with icons -->
+        <div class="header-right">
+            <span class="icon-button">Become a Host</span>
+            <span class="icon-button"><img src="globe.svg" alt=""></span>
+            <span class="icon-button"><img src="Profile Dropdown.svg" alt=""></span>
+        </div>
+    </header>
+    <main>
+        <!-- Search bar, listings, and map will go here -->
+        <div id="hero">
+            <div id="search-bar">
+                <input id="search-input" type="text" placeholder="Search listings...">
+                <button id="search-button"><img src="Icon Button.svg" alt=""></button>
+            </div>
+            
+            <!-- <div>
+                
+            </div> -->
+            <section class="hero">
+                <img src="https://images.pexels.com/photos/2360673/pexels-photo-2360673.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="">
+                <div class="overlay">
+                    <h1>Not sure where to go? Perfect!</h1>
+                    <!-- <p>Some description or additional text.</p> -->
+                    <a href="#" class="btn">I'm flexible</a>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div id="listings-container">
+            <!-- Listings will be appended here -->
+        </div>
+
+        <div id="result">
+            <!-- Result will be appended here -->
+        </div>
+
+        <h2 id="ins">Inspiration for your next trip</h2>
+        <div id="card-container">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://images.pexels.com/photos/925069/pexels-photo-925069.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 1">
+                <div class="card-title">Rajasthan</div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://images.pexels.com/photos/248833/pexels-photo-248833.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 2">
+                <div class="card-title">Bangalore</div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2337927/pexels-photo-2337927.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 3">
+                <div class="card-title">Sakura</div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="https://images.pexels.com/photos/5035655/pexels-photo-5035655.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 4">
+                <div class="card-title">Agra</div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/2635390/pexels-photo-2635390.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 4">
+                <div class="card-title">Vrindavan</div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/667205/pexels-photo-667205.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 4">
+                <div class="card-title">Assam</div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/5064662/pexels-photo-5064662.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="">
+                <div class="card-title">Ooty</div>
+            </div>
+
+        </div>
+
+        <h2 id="dis">Discover Airbnb Experiences</h2>
+        <div id="dae">
+
+            <div class="dae-image-container">
+                <img src="https://images.pexels.com/photos/1588032/pexels-photo-1588032.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="Image 1">
+                <div class="dae-overlay">
+                    <h1>Things to do on your trip</h1>
+                    <!-- <p>Some description or additional text.</p> -->
+                    <a href="#" class="btn">Experiences</a>
+                </div>
+            </div>
+
+            <div class="dae-image-container">
+                <img src="https://images.pexels.com/photos/5533720/pexels-photo-5533720.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                    alt="Image 2">
+                <div class="dae-overlay">
+                    <h1>Things to do from home</h1>
+                    <!-- <p>Some description or additional text.</p> -->
+                    <a href="#" class="btn">Online Experiences</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="gc">
+            <div id="gc-text">
+                <h2>Shop AirBnb Gift cards</h2>
+                <a href="#" id="gc-btn">Learn More</a>
+            </div>
+            <div id="gc-img"><img src="Gift Cards.svg" alt=""></div>
+        </div>
+
+        <div class="host-image-container" id="hic">
+            <img src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+            <div class="dae-overlay">
+                <h1>Questions about hosting?</h1>
+                <!-- <p>Some description or additional text.</p> -->
+                <a href="#" class="btn">Ask a Superhost</a>
+            </div>
+        </div>       
+
+        <!-- <div id="map">
+            <iframe id="mapIframe"></iframe>
+        </div> -->
+
+    </main>
+    <footer class="footer">
+        <div class="footer-columns">
+            <!-- Column 1 -->
+            <div class="footer-column">
+
+                <ol>
+                    <h3>Support</h3>
+                    <a href="#">Help Center</a>
+                    <a href="#">Safety Information</a>
+                    <a href="#">Cancellation options</a>
+                    <a href="#">Our COVID-19 Response</a>
+                    <a href="#">Supporting people with disabilities</a>
+                    <a href="#">Report a neighborhood concern</a>
+                </ol>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-column">
+                <ol>
+                    <h3>Community</h3>
+                    <a href="#">Airbnb.org: disaster relief housing</a>
+                    <a href="#">Support: Afghan refugees</a>
+                    <a href="#">Celebrating diversity & belonging</a>
+                    <a href="#">Combating discriminatino</a>
+                    <!-- <a href="#">Help Center</a> -->
+                </ol>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-column">
+
+                <ol>
+                    <h3>Hosting</h3>
+                    <a href="#">Try hosting</a>
+                    <a href="#">AirCover: protection for Hosts</a>
+                    <a href="#">Explore hosting resources</a>
+                    <a href="#">Visit our community forum</a>
+                    <a href="#">How to host responsibly</a>
+                    <!-- <a href="#">Report a neighborhood concern</a> -->
+                </ol>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="footer-column">
+
+                <ol>
+                    <h3>About</h3>
+                    <a href="#">Newsroom</a>
+                    <a href="#">Learn about new features</a>
+                    <a href="#">Letter from our founders</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Airbnb Luxe</a>
+                </ol>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="privacy-terms">
+                <a href="#"> AirBnb Inc. </a> |<a href="#"> Privacy Policy </a> | <a href="#"> Terms of Service</a>
+            </div>
+            <ul class="social-icons">
+                <li><a href="#" target="_blank"><img src="Social Media.svg" alt=""></a></li>
+                <li><a href="#" target="_blank"><img src="Vector.svg" alt=""></a></li>
+                <li><a href="#" target="_blank"><img src="Vector (1).svg" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
